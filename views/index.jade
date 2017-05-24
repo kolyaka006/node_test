@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  .row
+    .col-sm-6.col-sm-offset-3
+      label Real Url
+      input.real-url.form-control
+    .col-sm-6.col-sm-offset-3
+      label Short Url
+      input.short-url.form-control
+
+    .col-sm-6.col-sm-offset-3
+      button.save.btn.btn-default.form-control save
